@@ -11,5 +11,3 @@ target_include_directories(noownConts PUBLIC
 	${CMAKE_CURRENT_SOURCE_DIR}/pVoidArray/
 	${CMAKE_CURRENT_SOURCE_DIR}/hashArray/
 )
-
-add_library(noownContainers::noownConts ALIAS noownConts)
